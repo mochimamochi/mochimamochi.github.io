@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Splatoon1';
+    src: url('/assets/font/Splatoon1.woff2') format('woff2'),
+        url('/assets/font/Splatoon1.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+.Splatoon1{
+  font-family: 'Splatoon1';
+}
+
+@font-face {
+    font-family: 'Splatoon2';
+    src: url('/assets/font/Splatoon2.woff2') format('woff2'),
+        url('/assets/font/Splatoon2.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.Splatoon2{
+  font-family: 'Splatoon2';
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i');
+.Montserrat{
+	font-family: 'Montserrat', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  height: 100%;
+}
+
+body{
+	background-image: url('/assets/images/bg-squids.png');
+	background-repeat: repeat;
+	background-position: top;
+	background-size: 360px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#container{
+  min-height: 100%;
+}
+
+#main{
+  overflow: auto;
+  padding-bottom: 77.6px;
+}
+
+#footer{
+  position: relative;
+  height: 77.6px;
+  margin-top: -77.6px;
+  clear: both;
+}
+
+.bg-spots{
+	background-image: url('/assets/images/bg-spots.png');
+	background-repeat: repeat;
+}
+
+.bg-spots-invert{
+  background-image: url('/assets/images/bg-spots-invert.png');
+  background-repeat: repeat;
+}
+
+.bg-blob-black{
+  background-image: url('/assets/images/splatoon-one-blob-black20.png');
+  background-repeat: repeat;
+}
+
+.navbar li > a {
+  color: #333;
+  transition: background-color .2s, color .2s;
+}
+.navbar li > a:hover, .navbar li > a:focus {
+  background-color: #33691e;
+  color: #33691e;
+  border-radius: 25px;
+}
+.navbar li.active > a {
+  background-color: #558b2f;
+  color: #558b2f;
+}
+
+.team{
+  width: auto;
+  min-height: 100%;
+  border: 1px solid rgba(133,133,133,.15);
+  background-color: #fff;
+  -moz-box-shadow: 0 0 8px rgba(0,0,0,.09);
+  -webkit-box-shadow: 0 0 8px rgba(0,0,0,.09);
+  box-shadow: 0 0 8px rgba(0,0,0,.09);
+}
+
+.teamimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: -80px;
+  width:170px;
+  height:170px;
+  background: #1bbc9d;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
+}
+
+.text-shadow-thin{
+text-shadow: 
+  rgb(0, 0, 0) 2px 0px 0px, 
+  rgb(0, 0, 0) 1.75517px 0.958851px 0px, 
+  rgb(0, 0, 0) 1.0806px 1.68294px 0px, 
+  rgb(0, 0, 0) 0.141474px 1.99499px 0px, 
+  rgb(0, 0, 0) -0.832294px 1.81859px 0px, 
+  rgb(0, 0, 0) -1.60229px 1.19694px 0px, 
+  rgb(0, 0, 0) -1.97998px 0.28224px 0px, 
+  rgb(0, 0, 0) -1.87291px -0.701566px 0px, 
+  rgb(0, 0, 0) -1.30729px -1.5136px 0px, 
+  rgb(0, 0, 0) -0.421592px -1.95506px 0px, 
+  rgb(0, 0, 0) 0.567324px -1.91785px 0px, 
+  rgb(0, 0, 0) 1.41734px -1.41108px 0px, 
+  rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+}
